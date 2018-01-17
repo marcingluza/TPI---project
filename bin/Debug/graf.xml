@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gxl>
+  <graph id="Graph" edgeids=" true" edgemode=" directed" hypergraph=" false">
+    <node id="1">
+      <attr name="1">
+        <string>null</string>
+      </attr>
+    </node>
+    <node id="2">
+      <attr name="2">
+        <string>null</string>
+      </attr>
+    </node>
+	<node id="3">
+      <attr name="3">
+        <string>null</string>
+      </attr>
+    </node>
+    <node id="4">
+      <attr name="4">
+        <string>null</string>
+      </attr>
+    </node>
+    <node id="5">
+      <attr name="5">
+        <string>null</string>
+      </attr>
+    </node>
+     <edge id="e0" to="1" from="2" weight="3">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e1" to="2" from="3" weight="4">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e2" to="3" from="4" weight="1">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e3" to="4" from="5" weight="3">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e4" to="4" from="1" weight="4">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e5" to="2" from="4" weight="2">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+    <edge id="e6" to="1" from="3" weight="3">
+      <type></type>
+      <attr name=" line">
+        <int> 127</int>
+      </attr>
+    </edge>
+
+  </graph>
+</gxl>
